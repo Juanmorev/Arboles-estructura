@@ -1,0 +1,130 @@
+{
+  "next_id": 13,
+  "tree": {
+    "employee": {
+      "id": 1,
+      "name": "Carlos Ramírez",
+      "position": "Gerente General",
+      "department": "Dirección",
+      "salary": 15000000
+    },
+    "children": [
+      {
+        "employee": {
+          "id": 2,
+          "name": "Laura Gómez",
+          "position": "Directora de Tecnología",
+          "department": "Tecnología",
+          "salary": 9000000
+        },
+        "children": [
+          {
+            "employee": {
+              "id": 5,
+              "name": "Julián Pérez",
+              "position": "Líder de Desarrollo",
+              "department": "Tecnología",
+              "salary": 6000000
+            },
+            "children": [
+              {
+                "employee": {
+                  "id": 7,
+                  "name": "Daniel Castro",
+                  "position": "Desarrollador Backend",
+                  "department": "Tecnología",
+                  "salary": 4200000
+                },
+                "children": []
+              },
+              {
+                "employee": {
+                  "id": 8,
+                  "name": "Valentina Ruiz",
+                  "position": "Desarrolladora Frontend",
+                  "department": "Tecnología",
+                  "salary": 4000000
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "employee": {
+              "id": 6,
+              "name": "Sofía Herrera",
+              "position": "Líder de Infraestructura",
+              "department": "Tecnología",
+              "salary": 5800000
+            },
+            "children": [
+              {
+                "employee": {
+                  "id": 9,
+                  "name": "Miguel Ángel Soto",
+                  "position": "Administrador de Redes",
+                  "department": "Tecnología",
+                  "salary": 3800000
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "employee": {
+          "id": 3,
+          "name": "Andrés Torres",
+          "position": "Director Financiero",
+          "department": "Finanzas",
+          "salary": 8500000
+        },
+        "children": [
+          {
+            "employee": {
+              "id": 10,
+              "name": "Paula Moreno",
+              "position": "Contadora",
+              "department": "Finanzas",
+              "salary": 5000000
+            },
+            "children": [
+              {
+                "employee": {
+                  "id": 11,
+                  "name": "Esteban Vargas",
+                  "position": "Auxiliar Contable",
+                  "department": "Finanzas",
+                  "salary": 2500000
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "employee": {
+          "id": 4,
+          "name": "Marcela Díaz",
+          "position": "Directora de Talento Humano",
+          "department": "Recursos Humanos",
+          "salary": 7500000
+        },
+        "children": [
+          {
+            "employee": {
+              "id": 12,
+              "name": "Camila Rojas",
+              "position": "Analista de Selección",
+              "department": "Recursos Humanos",
+              "salary": 3500000
+            },
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}
